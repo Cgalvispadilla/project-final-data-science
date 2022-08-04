@@ -21,6 +21,7 @@ def graphy_serie_time(df):
                              dict(step='day', stepmode='backward', label='1 semana', count=7),
                              dict(step='month', stepmode='backward', label='1 mes', count=1),
                              dict(step='month', stepmode='backward', label='3 meses', count=3),
+                             dict(step='month', stepmode='backward', label='6 meses', count=6),
                              dict(step='year', stepmode='backward', label='1 año', count=1),
                              dict(label='Mostrar Todo', step='all')
                          ]
