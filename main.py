@@ -322,7 +322,7 @@ if choose == "Home":
 elif choose == "Contacto":
     with st.container():
         st.title('Grupo desarrollador')
-        st.write("Somos unos estudiantes de ingeniería de sistemas de la Universidad De Córdoba, si tienes alguna duda o sugerencia puedes contactarnos en el siguiente correo: fktcg99@gmail.com, también puedes aportar a nuestro proyecto en GitHub: https://github.com/Cgalvispadilla/project-final-data-science")
+        st.write("Somos unos estudiantes de ingeniería de sistemas de la Universidad de Córdoba, si tienes alguna duda o sugerencia puedes contactarnos en el siguiente correo: fktcg99@gmail.com, también puedes aportar a nuestro proyecto en GitHub: https://github.com/Cgalvispadilla/project-final-data-science")
         st.markdown("""
         <a class = "title_personalized" href="https://www.linkedin.com/in/cgalvispadilla/">CARLOS ANDRES GALVIS PADILLA</a>
         <br>
@@ -332,7 +332,7 @@ elif choose == "Contacto":
         <br>
         <a class = "title_personalized" href="https://www.linkedin.com/in/andres-camilo-ortiz-cogollo-3560b2243/">ANDRES CAMILO ORTIZ COGOLLO</a>
         <br>
-        <a class = "title_personalized" href="https://www.linkedin.com/in/carlos-alberto-del-castillo-maussa-a3b0aa245/">CARLOS ALBERTO DEL CASTILLO MAUSSA</a>
+        <a class = "title_personalized" href="https://www.linkedin.com/in/cdelcastillomaussa/">CARLOS ALBERTO DEL CASTILLO MAUSSA</a>
         """,unsafe_allow_html=True)
 elif choose == "Predecir":
     with st.container():
